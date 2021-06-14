@@ -1,0 +1,49 @@
+:root{
+    --primario: rgb(60, 180, 189);
+    --primarioOscuro: rgb(37, 131, 118);
+    --secundario: rgb(243, 126, 126);
+    --secundarioOscuro: rgb(221, 92, 92);
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrincipal: 'Bebas Neue', sans-serif;
+    --fuentaSecundaria: 'Rajdhani', sans-serif;
+}
+
+/* Globales */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+p{
+    font-family: var(--fuentaSecundaria);
+    font-size: 3.4rem;
+}
+
+.contenedor{
+    margin: auto;
+    max-width: 120rem;
+}
+
+h1, h2, h3{
+    font-family: var(--fuentePrincipal);
+    text-align: center;
+    color: var(--secundario);
+}
+
+h1{ font-size: 7rem; }
+h2{ font-size: 5rem; }
+h3{ font-size: 4rem; }
+
