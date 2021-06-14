@@ -105,7 +105,7 @@ nav a:hover{
 /* main */
 
 main{
-    max-width: 120rem;
+    max-width: 150rem;
     background-color: var(--primarioOscuro);
     border-radius: 10px;
     padding: 2rem;
@@ -204,6 +204,56 @@ main h2{
     }
 }
 
+                            /* Nosotros */
+/* main */
+
+.titulo{
+    text-align: center;
+}
+
+.info{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info img{
+    width: 90%;
+    margin: 1rem;
+}
+
+.info p{
+    margin: 1rem;
+    text-align: center;
+}
+
+.why{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.bc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bc p{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--blanco);
+}
+
+.cardbc{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* footer */
 
