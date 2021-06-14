@@ -74,6 +74,10 @@ header p{
     text-shadow: 4px 3px 0 #3b7039;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -108,6 +112,10 @@ main{
     box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.46);
     -webkit-box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.46);
     -moz-box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.46);
+}
+
+main h2{
+    margin: 2rem;
 }
 
 .contenedor-cards{
@@ -185,6 +193,18 @@ main{
     align-items: center;
 }
 
+@media (max-width:480px) {
+    .contenedor-cards {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .card{
+        margin: 1.5rem;
+    }
+}
+
+
 /* footer */
 
 footer{
@@ -192,6 +212,9 @@ footer{
     text-align: center;
     font-family: var(--fuentaSecundaria);
     font-size: 2rem;
-    color: var(--blanco);
     margin-top: 2rem;
+}
+
+footer span{
+    color: var(--blanco);
 }
