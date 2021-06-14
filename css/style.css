@@ -2,6 +2,7 @@
     --primario: rgb(60, 180, 189);
     --primarioOscuro: rgb(37, 131, 118);
     --secundario: rgb(243, 126, 126);
+    --secundarioClaro: rgb(243, 148, 148);
     --secundarioOscuro: rgb(221, 92, 92);
     --blanco: #fff;
     --negro: #000;
@@ -94,6 +95,7 @@ nav a{
 nav a:hover{
     transform: scale(1.1);
     transition: all 0.1s;
+    color: var(--secundarioClaro);
 }
 
 /* main */
