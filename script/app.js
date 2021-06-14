@@ -19,7 +19,7 @@ for (let x = 0; x < productox.length; x++){
     img.setAttribute("id", idx);
     console.log(idx);
     img.src = "./recursos/imagenes/"+idx+".jpg";
-    productox[x].appendChild(img);
+    productox[x].prepend(img);
     // img.setAttribute("src", imagenessss[1]);
     
 }
