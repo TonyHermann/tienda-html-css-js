@@ -72,6 +72,13 @@ header {
     margin-bottom: 2rem;
 }
 
+@media (max-width:480px) {
+    header {
+        background-image: unset;
+        background: url("https://tonyhermann.github.io/tienda-html-css-js/recursos/imagenes/pexels-jv-buenconcejo-2371778.jpg");
+    }
+}
+
 
 header p {
     text-align: center;
