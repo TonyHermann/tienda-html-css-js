@@ -72,12 +72,6 @@ header {
     margin-bottom: 2rem;
 }
 
-@media (max-width:480px) {
-    header {
-        height: 100%;
-    }
-}
-
 
 header p {
     text-align: center;
