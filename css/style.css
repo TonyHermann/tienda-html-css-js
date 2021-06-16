@@ -72,6 +72,13 @@ header {
     margin-bottom: 2rem;
 }
 
+@media (max-width:480px) {
+    header {
+        background-size: unset;
+    }
+}
+
+
 header p {
     text-align: center;
     font-family: var(--fuentaSecundaria);
