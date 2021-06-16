@@ -63,7 +63,7 @@ h3 {
 /* header */
 
 header {
-    background-image: url(https://tonyhermann.github.io/tienda-html-css-js/recursos/imagenes/asd.jpg);
+    background-image: url("./recursos/imagenes/asd.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
